@@ -1,0 +1,6 @@
+faster-whisper
+pyaudio
+SpeechRecognition
+pocketsphinx
+wave==0.0.2
+pyttsx3==2.90
