@@ -105,7 +105,7 @@ def transcribe_audio():
         print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
         speak("Starting the task " + segment.text)  # Speak the transcribed text
         
-    # you can make any logic here based on the segment.txt (the spoken word)
+    # you can make any logic here based on the segment.text (the spoken word)
         
     # Delete the audio file after processing
     os.remove(WAVE_OUTPUT_FILENAME)
